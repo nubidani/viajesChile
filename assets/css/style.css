@@ -29,6 +29,9 @@ img {
 .iconfondo {
     background: #0dcaf0;
     width: 100%;
-    height: 2rem;
-        
+    height: 2rem;   
+}
+/*sección destacados*/
+.card-img-top {
+    height: 12rem;
 }
