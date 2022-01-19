@@ -1,0 +1,12 @@
+/*CSS reset y añadiendo font family*/
+body * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Raleway",sans-serif;
+}
+
+/*Ajustando el logo del navbar*/
+img {
+    height: 2rem;
+}
