@@ -10,3 +10,7 @@ body * {
 img {
     height: 2rem;
 }
+/*Ajustando altura del carrusel*/
+.micarrusel {
+    margin-top: -80px;
+}
