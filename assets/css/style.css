@@ -4,6 +4,7 @@ body * {
     margin: 0;
     border: 0;
     font-family: "Raleway",sans-serif;
+    color: #FFFFFF;
 }
 
 /*Ajustando el logo del navbar*/
@@ -23,8 +24,7 @@ img {
 /*sección quienes somos*/
 .qs {
     background: #000000;
-    color: #FFFFFF;
-    display: inline-block;
+    
 }
 .iconfondo {
     background: #0dcaf0;
@@ -32,6 +32,13 @@ img {
     height: 2rem;   
 }
 /*sección destacados*/
+#cardsdest {
+    background:#000000;
+    color: #FFFFFF;
+}
 .card-img-top {
     height: 12rem;
+}
+.card {
+    background: #0dcaf0;
 }
