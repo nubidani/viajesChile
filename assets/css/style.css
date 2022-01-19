@@ -4,11 +4,12 @@ body * {
     margin: 0;
     border: 0;
     font-family: "Raleway",sans-serif;
-    color: #FFFFFF;
+    
 }
 
 body {
     background-color: #000000;
+    color: #FFFFFF;
 }
 
 /*Ajustando el logo del navbar*/
@@ -26,25 +27,22 @@ img {
     margin-top: -80px;
 }
 /*sección quienes somos*/
-section {
-    background: #000000;
-    
-}
+
 .iconfondo {
     background: #0dcaf0;
     width: 100%;
     height: 2rem;   
 }
 /*sección destacados*/
-#cardsdest {
-    background:#000000;
-    color: #FFFFFF;
-}
 .card-img-top {
     height: 12rem;
 }
 .card {
     background: #0dcaf0;
+}
+
+#modalCorreo {
+    color: #000000;
 }
 /*Sección footer*/
 footer {
