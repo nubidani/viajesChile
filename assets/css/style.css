@@ -10,6 +10,12 @@ body * {
 img {
     height: 2rem;
 }
+
+/*Ajustando imágenes carrusel*/
+.tamcarrusel {
+    width: 100%;
+    height: 100%;
+}
 /*Ajustando altura del carrusel*/
 .micarrusel {
     margin-top: -80px;
