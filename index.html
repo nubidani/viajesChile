@@ -31,13 +31,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Quiénes somos</a>
+                    <a class="nav-link" href="#secQsomos">Quiénes somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
+                    <a class="nav-link" href="#secDestacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Contacto</a>
+                    <a class="nav-link" href="#secContacto">Contacto</a>
                 </li>
                 </ul>
           </div>
@@ -69,7 +69,7 @@
     </div>
 </div>
 <!--Sección Quiénes somos-->
-<section class="container qs px-5 d-none d-sm-block">
+<section id="secQsomos"class="container qs px-5 d-none d-sm-block">
   <div>
     <h2 class="text-center py-5">¿QUIÉNES SOMOS?</h2>
     <hr>
@@ -130,7 +130,7 @@
 </section>
 <!--Sección destacados-->
 
-<section id="cardsdest" class="container">
+<section id="secDestacados" class="container">
   <h2 class="text-center py-5">DESTACADOS</h2>
   <hr>
   <div class="row">
@@ -189,8 +189,8 @@
       </article>
   </div>
 </section>
-<!--Sección formulario-->
-<section class="container text-light text-left">
+<!--Sección Contacto-->
+<section id="secContacto"class="container text-light text-left">
   <h2 class="text-center py-5">CONTACTO</h2>
   <hr>
   <div class="pt-3">
@@ -207,7 +207,7 @@
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     <div class="col-12">
-      <button id="enviarCorreo" type="submit" class="btn btn-info text-light mb-4">Enviar</button>
+      <button id="enviarCorreo" type="button" class="btn btn-info text-light mb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar tu correo">Enviar</button>
     </div>
   </div>
   <!--modal-->
