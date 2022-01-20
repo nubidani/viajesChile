@@ -1,4 +1,5 @@
 $(function() {
+    //Smooth scroll//
     $("a").on('click', function(event) {
         if (this.hash !== "") {
         event.preventDefault();
@@ -12,11 +13,12 @@ $(function() {
         });
         }
     });
+    //Modal//
     $("#enviarCorreo").click(function (){
         $("#modalCorreo").modal('show')
     })
 
-
+    //Títulos en color azul al hacer dblclick"
     $('body').on('dblclick','h2',function(){
         $(this).css("color","blue")
     })
