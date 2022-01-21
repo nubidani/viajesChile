@@ -48,3 +48,7 @@ img {
 footer {
     background: #0dcaf0 ;
 }
+
+a {
+    text-decoration: none;
+}
