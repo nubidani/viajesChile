@@ -1,0 +1,30 @@
+
+/*haciendo ajustes generales*/
+* {
+    font-family: 'Raleway';
+    margin: 0;
+
+}
+
+/*Navbar*/
+
+/*icono viajes chile*/
+.navbar img {
+    height: 2.75rem;
+}
+
+.navbar h2 {
+    color: #FFFFFF;
+}
+
+/*¿Quiénes somos?*/
+#qsomos {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.iconfondo {
+    background-color: #5bc0de;
+    color: #FFFFFF;
+    text-align: center;
+    padding-block: 0.25rem;
+}
