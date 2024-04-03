@@ -30,7 +30,7 @@
 }
 
 /*Destacados*/
-#destacados {
+#destacados, #contacto {
     background-color: #000000;
     color: #FFFFFF;
 }
@@ -39,3 +39,4 @@
     height: 12rem;
     width: 100%;
 }
+
