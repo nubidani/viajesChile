@@ -28,3 +28,14 @@
     text-align: center;
     padding-block: 0.25rem;
 }
+
+/*Destacados*/
+#destacados {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#destacados img {
+    height: 12rem;
+    width: 100%;
+}
