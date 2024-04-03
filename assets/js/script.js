@@ -1,5 +1,6 @@
+
 $(function() {
-    //Smooth scroll//
+    //Smooth scroll
     $("a").on('click', function(event) {
         if (this.hash !== "") {
         event.preventDefault();
@@ -13,9 +14,9 @@ $(function() {
         });
         }
     });
-    //Modal//
-    $("#enviarForm").click(function (){
-        $("#modalForm").modal('show')
+    //Modal
+    $("#enviarFormulario").click(function (){
+        $("#modalFormulario").modal('show')
     })
 
     //Títulos en color azul al hacer dblclick"
@@ -23,8 +24,8 @@ $(function() {
         $(this).css("color","blue")
     })
 })
-//Para que los tooltip funcionen//
+//Para que los tooltip funcionen
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-return new bootstrap.Tooltip(tooltipTriggerEl)
+  return new bootstrap.Tooltip(tooltipTriggerEl)
 })
