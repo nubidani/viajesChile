@@ -17,11 +17,14 @@
     color: #FFFFFF;
 }
 
-/*¿Quiénes somos?*/
-#qsomos {
+/*color de fondo y color en secciones quienes somos, destacados y contacto  */
+#qsomos, #destacados, #contacto {
     background-color: #000000;
     color: #FFFFFF;
 }
+
+/*¿Quiénes somos?*/
+
 .iconfondo {
     background-color: #5bc0de;
     color: #FFFFFF;
@@ -29,14 +32,19 @@
     padding-block: 0.25rem;
 }
 
-/*Destacados*/
-#destacados, #contacto {
-    background-color: #000000;
-    color: #FFFFFF;
-}
+/*Destacados */
 
 #destacados img {
     height: 12rem;
     width: 100%;
 }
 
+/*FOOTER*/
+footer {
+    background-color: #5bc0de;
+    color: #FFFFFF;
+}
+
+footer .nav {
+    padding-inline: 5rem;
+}

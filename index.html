@@ -38,7 +38,7 @@
                         <a class="nav-link link-light" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-light" href="#">Contacto</a>
+                        <a class="nav-link link-light" href="#contacto">Contacto</a>
                     </li>
                     
                 </ul>
@@ -67,7 +67,8 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+
+
 
     <!--Quiénes somos-->
     <div class="container-fluid d-none d-md-block py-3" id="qsomos">
@@ -178,7 +179,7 @@
     </div>
 
     <!--Contacto-->
-    <div class="container-fluid pt-3" id="contacto">
+    <div class="container-fluid pt-3 pb-3" id="contacto">
         <div class=" container text-center">
             <h3 class="border-bottom pb-3">CONTACTO</h3>
         </div>
@@ -200,16 +201,70 @@
             </div>
 
             <div class="mt-2 mb-3">
-                <button type="submit" class="btn btn-info text-light">Enviar</button>
+                <button id="enviarForm" type="submit" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviar tu correo">Enviar</button>
+            </div>
+        </div>
+
+                <!--modal-->
+        <div id="modalForm" class="modal" tabindex="-1" >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"><img src="assets/img/viajes.svg" alt="logo-viajes">VIAJESCHILE dice:</h5>
+                    </div>
+                    <div class="modal-body">
+                        <p><b>El mensaje ha sido enviado exitosamente</b></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
+    <!--Footer-->
+    <footer>
+        <div class="container text-center py-3">
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <h3 class="pt-2">VIAJES CHILE</h3>
+                </div>
+    
+                <div class="col">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-square-github fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-square-x-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="https://www.linkedin.com/home" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-linkedin fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-square-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>                
+    </footer>
+    <!--JQuery 3.7.1-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <!--CDN Bootstrap JS v5.3.3-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <!--JQuery 3.7.1-->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
     <!--JS-->
     <script src="assets/js/script.js"></script>
 </body>
