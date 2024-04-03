@@ -19,7 +19,7 @@
 <body>
     
     <!--Navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent px-5">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark px-5" id="menu">
         <div class="container-fluid">
             <img src="assets/img/viajes.svg" alt="">
             <h2>Viajes Chile</h2>
@@ -67,11 +67,11 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-
+    </div>
 
 
     <!--Quiénes somos-->
-    <div class="container-fluid d-none d-md-block py-3" id="qsomos">
+    <div class="container-fluid d-none d-md-block py-5" id="qsomos">
         <div class="container">
             <h3 class="border-bottom text-center pb-3">¿QUIÉNES SOMOS?</h3>
             
@@ -133,7 +133,7 @@
     </div>
 
     <!--Destacados-->
-    <div class="container-fluid d-sm-none d-md-block py-3" id="destacados">
+    <div class="container-fluid d-sm-none d-md-block py-5" id="destacados">
         <div class="container">
             <h3 class="border-bottom pb-3 text-center">DESTACADOS</h3>
 
@@ -179,7 +179,7 @@
     </div>
 
     <!--Contacto-->
-    <div class="container-fluid pt-3 pb-3" id="contacto">
+    <div class="container-fluid py-5" id="contacto">
         <div class=" container text-center">
             <h3 class="border-bottom pb-3">CONTACTO</h3>
         </div>
@@ -201,26 +201,26 @@
             </div>
 
             <div class="mt-2 mb-3">
-                <button id="enviarFormulario" type="button" class="btn btn-info text-light mb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar el formulario">Enviar</button>
+                <button id="enviarFormulario" type="submit" class="btn btn-info text-light mb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviar el formulario">Enviar</button>
             </div>
-        </div>
-        <!--modal-->
-        <div class="modal" tabindex="-1" id="modalFormulario">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title"><img src="./assets/img/viajes.svg" alt="logo-viajes">VIAJESCHILE dice:</h5>
-                    </div>
-                    <div class="modal-body">
-                        <p><b>El correo ha sido enviado exitosamente</b></p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+
+            <!--modal-->
+            <div class="modal" tabindex="-1" id="modalFormulario">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title"><img src="./assets/img/viajes.svg" alt="logo-viajes">Viajes Chile dice:</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>El formulario ha sido enviado exitosamente</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div>        
 
     </div>
 

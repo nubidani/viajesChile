@@ -17,6 +17,7 @@
     color: #FFFFFF;
 }
 
+
 /*color de fondo y color en secciones quienes somos, destacados y contacto  */
 #qsomos, #destacados, #contacto {
     background-color: #000000;
@@ -39,6 +40,17 @@
     width: 100%;
 }
 
+
+/*modal contacto*/
+.modal {
+    color: #000000;
+}
+.modal img {
+    height: 2rem;
+}
+
+
+
 /*FOOTER*/
 footer {
     background-color: #5bc0de;
@@ -46,5 +58,5 @@ footer {
 }
 
 footer .nav {
-    padding-inline: 5rem;
+    padding-inline: 3rem;
 }
