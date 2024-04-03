@@ -22,7 +22,7 @@ $(function() {
     });
 
     $(window).scroll(function(){
-        if ($(this).scrollTop() > $("#carouselExampleInterval").offset().top) {
+        if ($(this).scrollTop() > ($("#carouselExampleInterval").height() - 2 * $("nav").height())) {
             $(".navbar").addClass("bg-black");
         } else {
             $(".navbar").removeClass("bg-black ");
